@@ -1,6 +1,6 @@
-/* ------------------------------ */
+
 /*           GLOBAL               */
-/* ------------------------------ */
+
 
 * {
     margin: 0;
@@ -37,9 +37,9 @@ a:hover {
     color: #284ab1;
 }
 
-/* ------------------------------ */
+
 /*            NAVBAR              */
-/* ------------------------------ */
+
 
 #navbar {
     position: fixed;
@@ -68,9 +68,9 @@ a:hover {
     color: #1b3ea8;
 }
 
-/* ------------------------------ */
+
 /*          INTRODUÇÃO            */
-/* ------------------------------ */
+
 
 #intro {
     text-align: center;
@@ -86,9 +86,9 @@ a:hover {
     color: #555;
 }
 
-/* ------------------------------ */
+
 /*           CURRÍCULO            */
-/* ------------------------------ */
+
 
 #curriculo a {
     display: inline-block;
@@ -119,9 +119,9 @@ a:hover {
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
-/* ------------------------------ */
+
 /*             PROJETOS           */
-/* ------------------------------ */
+
 
 .projeto {
     margin-top: 40px;
@@ -154,9 +154,10 @@ a:hover {
     color: #555;
 }
 
-/* ------------------------------ */
+
+
 /*           HABILIDADES          */
-/* ------------------------------ */
+
 
 #habilidades {
     background: #f5f5f5;
@@ -167,23 +168,9 @@ a:hover {
     color: #3a64d8;
 }
 
-#habilidades ul li {
-    margin-bottom: 8px;
-    padding-left: 16px;
-    position: relative;
-}
 
-#habilidades ul li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #3a64d8;
-    font-size: 20px;
-}
-
-/* ------------------------------ */
 /*         CERTIFICAÇÕES          */
-/* ------------------------------ */
+
 
 .certificados {
     display: grid;
@@ -205,9 +192,9 @@ a:hover {
     border-color: #3a64d8;
 }
 
-/* ------------------------------ */
+
 /*            CONTATO             */
-/* ------------------------------ */
+
 
 #contato p {
     margin-bottom: 15px;
@@ -229,9 +216,9 @@ a:hover {
     border-color: #3a64d8;
 }
 
-/* ------------------------------ */
+
 /*          RESPONSIVIDADE        */
-/* ------------------------------ */
+
 
 @media (max-width: 768px) {
     section {
@@ -252,3 +239,4 @@ a:hover {
         padding: 26px;
     }
 }
+
